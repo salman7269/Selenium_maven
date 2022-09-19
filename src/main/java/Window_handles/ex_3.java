@@ -36,6 +36,7 @@ Set<String> windowids=driver.getWindowHandles();
 		
 	driver.switchTo().window(parentwindow);
 	driver.findElement(By.xpath("//*[text()='Elements']")).click();
+	System.out.println("completed");
 	}
 
 }
