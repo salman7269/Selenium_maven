@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="velocity Suite">
+  <test thread-count="5" name="velocity Test">
+    <classes>
+      <class name="TestNG.Nita_Mam">
+      <methods>
+      <include name="launchBrowser"></include>
+      <include name="basicsetUp"></include>
+      <include name="launchApp"></include>
+      <include name="login"></include>
+      <include name="verifyUserProfile"></include>
+      <include name="logout"></include>
+      <include name="generateReport"></include>
+      <include name="closeDriverInstance"></include>
+      <include name="cleanUp"></include>
+      
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- velocity Test -->
+</suite> <!-- velocity Suite -->

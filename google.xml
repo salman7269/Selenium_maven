@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="google">
+ <test thread-count="5" name="velocity">
+  
+<parameter name="search" value="velocity training"></parameter>
+<parameter name="google" value="https://www.google.co.in"></parameter>
+<classes>
+
+<class name="TestNG_Parameters.google"></class>
+
+</classes>
+  </test> 
+</suite> 

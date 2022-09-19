@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [google]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="velocity(failed)">
+    <parameter name="search" value="velocity training"/>
+    <parameter name="google" value="https://www.google.co.in"/>
+    <classes>
+      <class name="TestNG_Parameters.google">
+        <methods>
+          <include name="search" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- TestNG_Parameters.google -->
+    </classes>
+  </test> <!-- velocity(failed) -->
+</suite> <!-- Failed suite [google] -->
